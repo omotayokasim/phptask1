@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>First task PHP </title>
+<body>
+
+<h3>Contact us by filling the form below</h3>
+
+<form action = "contact.php" method = "POST">
+
+<label for = "firstName">FIRST NAME</label>
+</br>
+<input type = "text" name = "firstName" placeholder = "Enter Your First Name" required />  
+</p>
+
+<p>
+<label for = "lastName">LAST NAME</label>
+</br>
+<input type = "text" name = "lastName" placeholder = "Enter Your Last Name" required />  
+</p>
+
+
+<p>
+    <label for = "email">EMAIL</label>
+    </br>
+    <input type = "email" name = "email" placeholder = "Enter Your Email contact" required />  
+    </p>
+
+    <p>
+        <label for = "faculty">FACULTY</label>
+        </br>
+        <select name = "faculty" required >
+
+            <option> select faculty </option>
+            <option> Faculty of Engineering </option>
+            <option> Faculty of Law </option>
+            <option> College of Medicine </option>
+            <option> Faculty of Education </option>
+            <option> Faculty of Sciences </option>
+            <option> Faculty of Business administration </option>
+            
+        </select>   
+        </p>
+
+        <p>
+            <label for = "gender"> GENDER </label>
+            </br>
+            <select name = "gender" required>
+    
+                <option> select your gender </option>
+                <option> Male </option>
+                <option> Female </option>
+                                
+            </select>   
+            </p>
+
+
+
+                <p>
+                <label for = "yourMessage">Your Message</label>
+                </br>
+                <textarea name= "yourMessage" required></textarea> 
+            
+            </p>
+             
+
+             <label for = "password">PASSWORD</label>
+             </br>
+             <input type = "password" name = "password" placeholder = "Enter Your Password" required/>  
+             </p>
+
+
+            <p>
+                <label for = "dateOfMessage">DATE OF MESSAGE </label>
+                </br>
+                <input type = "date" name = "dateOfMessage" placeholder = "Enter the date message was sent" required />  
+                </p>
+
+                <p>
+                   </br>
+                    <input type = "checkbox" name = "terms" required /> I hereby agree to your terms and conditions  
+                    </p>
+
+                    <p>
+                        <button type = "submit">
+                            Send Message
+
+                        </button>
+                    </p>               
+
+
+
+</form>
+
+
+</body>
+    </head>
+</html>
